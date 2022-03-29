@@ -15,14 +15,50 @@
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB">
-            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <rect key="frame" x="0.0" y="0.0" width="413" height="781"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Company Details" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wjt-74-LzX">
+                    <rect key="frame" x="0.0" y="11" width="251" height="53"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="53" id="3CC-ET-lxU"/>
+                        <constraint firstAttribute="width" constant="251" id="YuL-ft-xL2"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="30"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="tMu-Bt-Zbz">
+                    <rect key="frame" x="0.0" y="72" width="413" height="689"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="689" id="VGK-gl-0Mj"/>
+                    </constraints>
+                    <mutableString key="text">Mahavir Metals is a Leading &amp; Pioneer manufacturer of all kinds of "Precision Brass Components" as per customer's requirements. Our product suits to all industrial sectors like Electrical &amp; Electronics, Telecommunication, Automobiles, Bicycle, Construction &amp; Industrial Applications. Since two decades Mahavir Metals has witnessed as well as implemented the engineering technologies whatever came across the past commercial phase, up to the best of the best. In these 20 years of industries, many wonders has been created towards the Globalization of business and thankfully World becomes so small for Overseas business trade &amp; Opportunities, with the Blessings of Information and Technology Revolution. Now at Mahavir Metals, we think this is the right time to convert our Opportunities into the business by sharing our Culture, Ideas and Techniques by Joining Free Hands towards the Growth, Success &amp; Innovation of New Techniques. Mahavir Metals welcomes all business proposals from Worldwide in form of Joint Ventures, Agencies, Tie-Up Technologies, Partnerships and in whatever way best, for the organizations towards the New Achievements, Enlargement and Innovation. We also welcome all inquires interested in selling and distributing our Precious Products into their specific region by becoming our associates or agents.</mutableString>
+                    <color key="textColor" systemColor="labelColor"/>
+                    <fontDescription key="fontDescription" name="Cochin" family="Cochin" pointSize="17"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-            <point key="canvasLocation" x="-178" y="-23"/>
+            <constraints>
+                <constraint firstItem="tMu-Bt-Zbz" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="4Xa-Dn-WoP"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="tMu-Bt-Zbz" secondAttribute="bottom" constant="20" id="b0B-vI-uXq"/>
+                <constraint firstItem="wjt-74-LzX" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="p1Q-KM-NNY"/>
+                <constraint firstItem="wjt-74-LzX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="11" id="qyb-a5-iEk"/>
+                <constraint firstItem="tMu-Bt-Zbz" firstAttribute="top" secondItem="wjt-74-LzX" secondAttribute="bottom" constant="8" id="rY3-rp-U9A"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="tMu-Bt-Zbz" secondAttribute="trailing" id="tNg-ZG-vKE"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-447.10144927536237" y="-13.727678571428571"/>
         </view>
     </objects>
     <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

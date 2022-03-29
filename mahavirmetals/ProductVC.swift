@@ -9,13 +9,29 @@ import UIKit
 
 class ProductVC: UIViewController {
     
-    var imgArr = [UIImage(named: "Ncs_logo"),UIImage(named: "logo_1x"),UIImage(named: "Ncs_logo"),UIImage(named: "logo_1x")]
+    
+    @IBOutlet weak var aluminiumProductTableView: UITableView!
+    
+    var imgArr = [UIImage(named: "folio1"),UIImage(named: ""),UIImage(named: "folio1"),UIImage(named: "")]
     
     @IBOutlet weak var sliderCollectionView: UICollectionView!
     
     @IBOutlet weak var pageView: UIPageControl!
     
+    let leftImageArray = ["aluminium1", "aluminium2","aluminium3", "aluminium4","aluminium5"]
+    
    
+    let aluminProdTitleArr = ["Aluminum Alloy Bar","Aluminium Chequered Plate","Aluminum Alloy 2014 Grade","Aluminum Sheet","Marine Grade Aluminum Alloy"]
+    
+    let pricePerKilogramArr = ["200","200","145","180","200"]
+    
+    let specification1Arr = ["Grade","Bar Pattern","Alloy Or Not    ","Alloy Or Not","Alloy Or Not    "]
+    
+    let specification2Arr = ["Anodised","Pattern","Alloy Or Not    ","Alloy Or Not","Alloy Or Not"]
+    
+    let specification3Arr = ["Color","Surface Treatment","Alloy Or Not    ","Alloy Or Not","Alloy Or Not"]
+    
+    let specification4Arr = ["Brand","Grade","Alloy Or Not ","Alloy Or Not","Alloy Or Not"]
     
     var timer = Timer()
     var counter = 0
@@ -85,4 +101,32 @@ extension ProductVC: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
         return 0.0
     }
+}
+
+extension ProductVC : UITableViewDelegate,UITableViewDataSource
+{
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return leftImageArray.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "aluminiumProductCustomCellTableViewCell") as! aluminiumProductCustomCellTableViewCell
+        
+        let leftImage = leftImageArray[indexPath.row]
+        
+        cell.alumnProductImageView.image =  UIImage(named: leftImage)
+        
+        cell.aluminiumProductTitle.text = aluminProdTitleArr[indexPath.row]
+        
+        cell.Price.text = "Rs" + pricePerKilogramArr[indexPath.row] + "/Kg"
+        
+        cell.aluminProductSpec1.text = specification1Arr[indexPath.row]
+        cell.aluminProductSpec2.text = specification2Arr[indexPath.row]
+        cell.aluminProductSpec3.text = specification3Arr[indexPath.row]
+        cell.aluminProductSpec4.text = specification4Arr[indexPath.row]
+        
+        return cell
+    }
+    
+    
 }

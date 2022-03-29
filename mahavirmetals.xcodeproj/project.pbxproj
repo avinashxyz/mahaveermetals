@@ -21,6 +21,7 @@
 		E17D725127F352430027CF2C /* customContactUsXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = E17D725027F352430027CF2C /* customContactUsXib.xib */; };
 		E17D725427F3525F0027CF2C /* customContactUsXib.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17D725327F3525F0027CF2C /* customContactUsXib.swift */; };
 		E17D725F27F3582C0027CF2C /* ProductVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17D725E27F3582C0027CF2C /* ProductVC.swift */; };
+		E17D726327F39EBC0027CF2C /* aluminiumProductCustomCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17D726227F39EBC0027CF2C /* aluminiumProductCustomCellTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		E17D725027F352430027CF2C /* customContactUsXib.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = customContactUsXib.xib; sourceTree = "<group>"; };
 		E17D725327F3525F0027CF2C /* customContactUsXib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customContactUsXib.swift; sourceTree = "<group>"; };
 		E17D725E27F3582C0027CF2C /* ProductVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductVC.swift; sourceTree = "<group>"; };
+		E17D726227F39EBC0027CF2C /* aluminiumProductCustomCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aluminiumProductCustomCellTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				E17D725027F352430027CF2C /* customContactUsXib.xib */,
 				E17D725327F3525F0027CF2C /* customContactUsXib.swift */,
 				E17D725E27F3582C0027CF2C /* ProductVC.swift */,
+				E17D726227F39EBC0027CF2C /* aluminiumProductCustomCellTableViewCell.swift */,
 			);
 			path = mahavirmetals;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				E17D724E27F351750027CF2C /* customCompanyDetailViewXib.swift in Sources */,
 				E17D722F27F346B50027CF2C /* ContactUsViewController.swift in Sources */,
 				E17D725F27F3582C0027CF2C /* ProductVC.swift in Sources */,
+				E17D726327F39EBC0027CF2C /* aluminiumProductCustomCellTableViewCell.swift in Sources */,
 				E17D725427F3525F0027CF2C /* customContactUsXib.swift in Sources */,
 				E17D720A27F335C70027CF2C /* AppDelegate.swift in Sources */,
 				E17D720C27F335C70027CF2C /* SceneDelegate.swift in Sources */,
