@@ -52,7 +52,7 @@
                                     <constraint firstAttribute="height" constant="40" id="rUX-ql-cMQ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="About Daksh Eterprises">
+                                <state key="normal" title="About Daksh Enterprises">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
