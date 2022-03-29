@@ -13,6 +13,14 @@
 		E17D721127F335C70027CF2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E17D720F27F335C70027CF2C /* Main.storyboard */; };
 		E17D721327F335C80027CF2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E17D721227F335C80027CF2C /* Assets.xcassets */; };
 		E17D721627F335C80027CF2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E17D721427F335C80027CF2C /* LaunchScreen.storyboard */; };
+		E17D722F27F346B50027CF2C /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17D722E27F346B50027CF2C /* ContactUsViewController.swift */; };
+		E17D724527F3506E0027CF2C /* customView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E17D724427F3506E0027CF2C /* customView.xib */; };
+		E17D724827F350890027CF2C /* customView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17D724727F350890027CF2C /* customView.swift */; };
+		E17D724B27F351610027CF2C /* customCompanyDetailViewXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = E17D724A27F351610027CF2C /* customCompanyDetailViewXib.xib */; };
+		E17D724E27F351750027CF2C /* customCompanyDetailViewXib.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17D724D27F351750027CF2C /* customCompanyDetailViewXib.swift */; };
+		E17D725127F352430027CF2C /* customContactUsXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = E17D725027F352430027CF2C /* customContactUsXib.xib */; };
+		E17D725427F3525F0027CF2C /* customContactUsXib.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17D725327F3525F0027CF2C /* customContactUsXib.swift */; };
+		E17D725F27F3582C0027CF2C /* ProductVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17D725E27F3582C0027CF2C /* ProductVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		E17D721227F335C80027CF2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E17D721527F335C80027CF2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E17D721727F335C80027CF2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E17D722E27F346B50027CF2C /* ContactUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
+		E17D724427F3506E0027CF2C /* customView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = customView.xib; sourceTree = "<group>"; };
+		E17D724727F350890027CF2C /* customView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customView.swift; sourceTree = "<group>"; };
+		E17D724A27F351610027CF2C /* customCompanyDetailViewXib.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = customCompanyDetailViewXib.xib; sourceTree = "<group>"; };
+		E17D724D27F351750027CF2C /* customCompanyDetailViewXib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customCompanyDetailViewXib.swift; sourceTree = "<group>"; };
+		E17D725027F352430027CF2C /* customContactUsXib.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = customContactUsXib.xib; sourceTree = "<group>"; };
+		E17D725327F3525F0027CF2C /* customContactUsXib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customContactUsXib.swift; sourceTree = "<group>"; };
+		E17D725E27F3582C0027CF2C /* ProductVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +56,7 @@
 		E17D71FD27F335C60027CF2C = {
 			isa = PBXGroup;
 			children = (
+				E17D722E27F346B50027CF2C /* ContactUsViewController.swift */,
 				E17D720827F335C70027CF2C /* mahavirmetals */,
 				E17D720727F335C70027CF2C /* Products */,
 			);
@@ -63,6 +80,13 @@
 				E17D721227F335C80027CF2C /* Assets.xcassets */,
 				E17D721427F335C80027CF2C /* LaunchScreen.storyboard */,
 				E17D721727F335C80027CF2C /* Info.plist */,
+				E17D724427F3506E0027CF2C /* customView.xib */,
+				E17D724727F350890027CF2C /* customView.swift */,
+				E17D724A27F351610027CF2C /* customCompanyDetailViewXib.xib */,
+				E17D724D27F351750027CF2C /* customCompanyDetailViewXib.swift */,
+				E17D725027F352430027CF2C /* customContactUsXib.xib */,
+				E17D725327F3525F0027CF2C /* customContactUsXib.swift */,
+				E17D725E27F3582C0027CF2C /* ProductVC.swift */,
 			);
 			path = mahavirmetals;
 			sourceTree = "<group>";
@@ -125,8 +149,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E17D721627F335C80027CF2C /* LaunchScreen.storyboard in Resources */,
+				E17D724527F3506E0027CF2C /* customView.xib in Resources */,
 				E17D721327F335C80027CF2C /* Assets.xcassets in Resources */,
+				E17D724B27F351610027CF2C /* customCompanyDetailViewXib.xib in Resources */,
 				E17D721127F335C70027CF2C /* Main.storyboard in Resources */,
+				E17D725127F352430027CF2C /* customContactUsXib.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +164,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E17D724827F350890027CF2C /* customView.swift in Sources */,
 				E17D720E27F335C70027CF2C /* ViewController.swift in Sources */,
+				E17D724E27F351750027CF2C /* customCompanyDetailViewXib.swift in Sources */,
+				E17D722F27F346B50027CF2C /* ContactUsViewController.swift in Sources */,
+				E17D725F27F3582C0027CF2C /* ProductVC.swift in Sources */,
+				E17D725427F3525F0027CF2C /* customContactUsXib.swift in Sources */,
 				E17D720A27F335C70027CF2C /* AppDelegate.swift in Sources */,
 				E17D720C27F335C70027CF2C /* SceneDelegate.swift in Sources */,
 			);
